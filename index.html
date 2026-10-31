@@ -8,74 +8,74 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <a href="#">devfolio.</a>
-        <nav>
-            <a href="#">Sobre</a>
-            <a href="#">Projetos</a>
+        <nav class="nav">
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
             <a href="#">Contato</a>
         </nav>
     </header>
     <main>
-        <section>
-            <p>OLÁ, EU SOU DESENVOLVEDOR WEB</p>
-            <h1>Criando experiências para a web.</h1>
-            <p>Estudando desenvolvimento front-end e construindo projetos com HTML, CSS e JavaScript.</p>
-            <div>
-                <a href="#">Ver projetos</a>
+        <section id="sobre">
+            <span class="intro">OLÁ, EU SOU DESENVOLVEDOR WEB</span>
+            <h1 class="hero-title">Criando experiências para a web.</h1>
+            <p class="description">Estudando desenvolvimento front-end e construindo projetos com HTML, CSS e JavaScript.</p>
+            <div class="hero-actions">
+                <a href="#projetos">Ver projetos</a>
                 <a href="#">Contato</a>
             </div>
         </section>
-        <section>
-            <div>
+        <section id="projetos">
+            <div class="project-header">
                 <h2>Projetos recentes</h2>
                 <span>04 projetos</span>
             </div>
-            <div>
-                <article>
-                    <div>
+            <div class="projects">
+                <article class="card">
+                    <div class="card-visual">
                         <span>01</span>
                     </div>
-                    <div>
+                    <div class="card-content">
                         <h3>Linktree</h3>
-                        <span>Página de links responsiva</span>
+                        <p>Página de links responsiva</p>
                         <span>HTML · CSS</span>
                     </div>
                 </article>
-                <article>
-                    <div>
+                <article class="card">
+                    <div class="card-visual">
                         <span>02</span>
                     </div>
-                    <div>
+                    <div class="card-content">
                         <h3>Landing Page</h3>
-                        <span>Página de apresentação</span>
+                        <p>Página de apresentação</p>
                         <span>Flexbox</span>
                     </div>
                 </article>
-                <article>
-                    <div>
+                <article class="card">
+                    <div class="card-visual">
                         <span>03</span>
                     </div>
-                    <div>
+                    <div class="card-content">
                         <h3>Galeria</h3>
-                        <span>Layout de cartões flexíveis</span>
+                        <p>Layout de cartões flexíveis</p>
                         <span>CSS</span>
                     </div>
                 </article>
-                <article>
-                    <div>
+                <article class="card">
+                    <div class="card-visual">
                         <span>04</span>
                     </div>
-                    <div>
+                    <div class="card-content">
                         <h3>Dashboard</h3>
-                        <span>Painel com cards</span>
+                        <p>Painel com cards</p>
                         <span>HTML · CSS</span>
                     </div>
                 </article>
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <span>© 2026 DevPortfolio</span>
         <span>Feito com HTML e CSS</span>
     </footer>
