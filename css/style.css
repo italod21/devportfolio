@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fundo: #0f111a;
+    --fonte-cinza: #8995aa;
+}
+
+body {
+    background-color: var(--fundo);
+    min-height: 100dvh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    min-height: 3rem;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.nav {
+    display: flex;
+    gap: 1.5rem;
+
+    a {
+        color: var(--fonte-cinza);
+        font-size: 0.625rem;
+    }
+}
